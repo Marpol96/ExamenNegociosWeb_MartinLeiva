@@ -2,6 +2,7 @@ const express = require("express");
 const exphbs = require("express-handlebars");
 const bodyParser = require("body-parser");
 const routes = require("./routes");
+require("./models/Examen");
 const app = express();
 app.engine(
     "hbs",

@@ -1,4 +1,4 @@
-const Examen = require("../models/examen");
+const examen = require("../models/examen");
 exports.home = (req, res, next) => {
     res.render("crear_examen");
 }

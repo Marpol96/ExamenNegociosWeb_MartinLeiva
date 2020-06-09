@@ -1,5 +1,5 @@
 const express = require("express");
-const routes = express.Router();
+const routes = express.Routes();
 
 const examenController = require("../controllers/examenController");
 module.exports = function() {
